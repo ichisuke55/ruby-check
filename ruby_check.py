@@ -14,7 +14,7 @@ END = '\033[0m'
 
 
 def load_json_file():
-    with open('./kanji.json') as f:
+    with open('./kanji.json', encoding="utf-8") as f:
         d = json.load(f)
     return d
 
