@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parse-ppt-kanji"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "parse_ppt_kanji"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.10"
+python-pptx = "^0.6.21"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
